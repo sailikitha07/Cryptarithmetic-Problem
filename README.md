@@ -78,8 +78,9 @@ MORE = 1085<br>
 <hr>
 MONEY = 10652<br>
 <hr>
-<h2>Program : </h2>
-#
+
+##  Program :
+```
 from itertools import permutations
 
 def solve_cryptarithmetic():
@@ -106,11 +107,11 @@ if solution:
     print(f'SEND = {SEND}')
     print(f'MORE = {MORE}')
     print(f'MONEY = {MONEY}')
- #
 else:
     print("No solution found.")
-
+```
 <h2> Output : </h2>
+
 <img width="381" height="238" alt="image" src="https://github.com/user-attachments/assets/9f19db63-0f76-40b8-8ce8-b49c6ddf3175" />
 
 <h2>Result:</h2>
